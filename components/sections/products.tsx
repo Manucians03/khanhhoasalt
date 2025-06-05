@@ -33,14 +33,14 @@ const Products = () => {
       name: t.products['pure-coarse-salt'].name,
       image: "/images/products/industrial-1.jpg",
       description: t.products['pure-coarse-salt'].usageText,
-      slug: "industrial-salt",
+      slug: "pure-coarse-salt",
     },
     {
       id: 4,
       name: t.products['industrial-coarse-salt'].name,
       image: "/images/products/coarse-1.jpg",
       description: t.products['industrial-coarse-salt'].usageText,
-      slug: "iodized-salt",
+      slug: "industrial-coarse-salt",
     },
   ]
 

@@ -26,6 +26,14 @@ const Contact = () => {
     // Handle form submission
     console.log("Form submitted:", formData)
     alert(language === "en" ? "Message sent successfully!" : "Tin nhắn đã được gửi thành công!")
+
+    // Send email to admin
+    const adminEmail = "phangkhanhhoa@gmail.com"
+    const subject = "New message from " + formData.name
+    const message = "Name: " + formData.name + "\nEmail: " + formData.email + "\nSubject: " + formData.subject + "\nMessage: " + formData.message
+    const mailtoLink = `mailto:${adminEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`
+    window.location.href = mailtoLink
+
     setFormData({ name: "", email: "", subject: "", message: "" })
   }
 

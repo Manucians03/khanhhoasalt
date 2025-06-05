@@ -60,6 +60,18 @@ const ProductsContent = () => {
       category: language === "en" ? "Pure Salt" : "Muối Tinh Khiết",
       description: t.products['pure-coarse-salt'].usageText,
       slug: "pure-coarse-salt",
+      features: [
+        language === "en" ? "100% NaCl" : "100% NaCl",
+        language === "en" ? "High purity" : "Độ tinh khiết cao",
+        language === "en" ? "Multiple packaging sizes" : "Nhiều quy cách đóng gói",
+        language === "en" ? "Quality assured" : "Đảm bảo chất lượng",
+      ],
+      applications: [ 
+        language === "en" ? "Food processing" : "Chế biến thực phẩm",
+        language === "en" ? "Industrial use" : "Sử dụng công nghiệp",
+        language === "en" ? "Water treatment" : "Xử lý nước",
+        language === "en" ? "Chemical industry" : "Công nghiệp hóa chất",
+      ],
     },
     {
       id: 4,
@@ -68,6 +80,18 @@ const ProductsContent = () => {
       category: language === "en" ? "Industrial Salt" : "Muối Công Nghiệp",
       description: t.products['industrial-coarse-salt'].usageText,
       slug: "industrial-coarse-salt",
+      features: [
+        language === "en" ? "100% NaCl" : "100% NaCl",
+        language === "en" ? "High purity" : "Độ tinh khiết cao",
+        language === "en" ? "Multiple packaging sizes" : "Nhiều quy cách đóng gói",
+        language === "en" ? "Quality assured" : "Đảm bảo chất lượng",
+      ],
+      applications: [
+        language === "en" ? "Food processing" : "Chế biến thực phẩm",
+        language === "en" ? "Industrial use" : "Sử dụng công nghiệp",
+        language === "en" ? "Water treatment" : "Xử lý nước",
+        language === "en" ? "Chemical industry" : "Công nghiệp hóa chất",
+      ],
     },
   ]
 

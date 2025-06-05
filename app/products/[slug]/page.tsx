@@ -21,13 +21,12 @@ export default function ProductDetailPage() {
   const slug = params.slug as string
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
-  // Mock product data - in a real app, this would come from an API or database
   const getProductBySlug = (slug: string) => {
     const products = {
       "khanh-vinh-refined-salt": {
         id: 1,
         name: t.products['khanh-vinh-refined-salt'].name,
-        category: language === "en" ? "Refined Salt" : "Muối Tinh",
+        category: t.products['khanh-vinh-refined-salt'].name,
         description: t.products['khanh-vinh-refined-salt'].usageText,
         images: [
           "/images/products/refined-1.jpg",
@@ -44,15 +43,15 @@ export default function ProductDetailPage() {
         certificate: t.products['khanh-vinh-refined-salt'].certificateText,
         applications: [
           language === "en" ? "Instant noodles" : "Mì ăn liền",
-          language === "en" ? "Sauces" : "Tương ớt",
           language === "en" ? "Seasoning powder" : "Bột canh",
-          language === "en" ? "Food processing" : "Chế biến thực phẩm",
+          language === "en" ? "Food service" : "Dịch vụ ăn uống",
+          language === "en" ? "Bakery products" : "Sản phẩm bánh kẹo",
         ],
       },
       "khanh-vinh-dried-refined-salt": {
         id: 2,
         name: t.products['khanh-vinh-dried-refined-salt'].name,
-        category: language === "en" ? "Pure Salt" : "Muối Tinh Khiết",
+        category: t.products['khanh-vinh-dried-refined-salt'].name,
         description: t.products['khanh-vinh-dried-refined-salt'].usageText,
         images: [
           "/images/products/dried-1.jpg",
@@ -75,7 +74,7 @@ export default function ProductDetailPage() {
       "pure-coarse-salt": {
         id: 3,
         name: t.products['pure-coarse-salt'].name,
-        category: language === "en" ? "Industrial Salt" : "Muối Công Nghiệp",
+        category: t.products['pure-coarse-salt'].name,
         description: t.products['pure-coarse-salt'].usageText,
         images: [
           "/images/products/industrial-1.jpg",
@@ -93,14 +92,13 @@ export default function ProductDetailPage() {
         applications: [
           language === "en" ? "Chemical industry" : "Công nghiệp hóa chất",
           language === "en" ? "Water treatment" : "Xử lý nước",
-          language === "en" ? "De-icing" : "Chống đóng băng",
           language === "en" ? "Textile industry" : "Công nghiệp dệt may",
         ],
       },
       "industrial-coarse-salt": {
         id: 4,
         name: t.products['industrial-coarse-salt'].name,
-        category: language === "en" ? "Iodized Salt" : "Muối I-ốt",
+        category: t.products['industrial-coarse-salt'].name,
         description: t.products['industrial-coarse-salt'].usageText,
         images: [
           "/images/products/coarse-1.jpg",
@@ -108,23 +106,17 @@ export default function ProductDetailPage() {
           "/images/products/coarse-3.jpg",
           "/images/products/coarse-4.jpg",
         ],
-        ingredients: language === "en" ? "NaCl + Potassium Iodate" : "NaCl + Kali Iodat",
-        status:
-          language === "en" ? "Fine crystal form with iodine fortification" : "Dạng tinh thể mịn được bổ sung i-ốt",
-        expiration: language === "en" ? "3 years from production date" : "3 năm kể từ ngày sản xuất",
-        storage:
-          language === "en"
-            ? "Store in cool, dry place away from light"
-            : "Bảo quản nơi khô ráo, thoáng mát, tránh ánh sáng",
-        weight: "500g, 1kg, 25kg",
-        quality:
-          language === "en" ? "Meets national standards for iodized salt" : "Đạt tiêu chuẩn quốc gia về muối i-ốt",
-        certificate: "ISO 22000:2018, HACCP",
+        ingredients: t.products['industrial-coarse-salt'].ingredientsText,
+        status: t.products['industrial-coarse-salt'].statusText,
+        expiration: t.products['industrial-coarse-salt'].expirationText,
+        storage: t.products['industrial-coarse-salt'].storageText,
+        weight: t.products['industrial-coarse-salt'].weightText,
+        quality: t.products['industrial-coarse-salt'].qualityText,
+        certificate: t.products['industrial-coarse-salt'].certificateText,
         applications: [
-          language === "en" ? "Household cooking" : "Nấu ăn gia đình",
-          language === "en" ? "Food service" : "Dịch vụ ăn uống",
           language === "en" ? "Food processing" : "Chế biến thực phẩm",
-          language === "en" ? "Bakery products" : "Sản phẩm bánh kẹo",
+          language === "en" ? "Textile industry" : "Công nghiệp dệt may",
+          language === "en" ? "Chemical industry" : "Công nghiệp hóa chất",
         ],
       },
     }
@@ -327,10 +319,10 @@ export default function ProductDetailPage() {
                 {/* CTA */}
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button asChild className="flex-1">
-                    <Link href="/contact">{language === "en" ? "Request Quote" : "Yêu Cầu Báo Giá"}</Link>
+                    <Link href="/contact">{language === "en" ? "Contact Us" : "Liên Hệ"}</Link>
                   </Button>
                   <Button variant="outline" asChild className="flex-1">
-                    <Link href="/contact">{language === "en" ? "Contact Sales" : "Liên Hệ Bán Hàng"}</Link>
+                    <Link href="/products">{language === "en" ? "All Products" : "Tất Cả Sản Phẩm"}</Link>
                   </Button>
                 </div>
               </div>
