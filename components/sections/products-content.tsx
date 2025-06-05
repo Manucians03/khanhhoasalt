@@ -16,7 +16,7 @@ const ProductsContent = () => {
     {
       id: 1,
       name: t.products['khanh-vinh-refined-salt'].name,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/products/refined-1.jpg",
       category: language === "en" ? "Refined Salt" : "Muối Tinh",
       description: t.products['khanh-vinh-refined-salt'].usageText,
       slug: "khanh-vinh-refined-salt",
@@ -36,7 +36,7 @@ const ProductsContent = () => {
     {
       id: 2,
       name: t.products['khanh-vinh-dried-refined-salt'].name,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/products/dried-1.jpg",
       category: language === "en" ? "Pure Salt" : "Muối Tinh Khiết",
       description: t.products['khanh-vinh-dried-refined-salt'].usageText,
       slug: "khanh-vinh-dried-refined-salt",
@@ -56,7 +56,7 @@ const ProductsContent = () => {
     {
       id: 3,
       name: t.products['pure-coarse-salt'].name,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/products/industrial-1.jpg",
       category: language === "en" ? "Pure Salt" : "Muối Tinh Khiết",
       description: t.products['pure-coarse-salt'].usageText,
       slug: "pure-coarse-salt",
@@ -64,7 +64,7 @@ const ProductsContent = () => {
     {
       id: 4,
       name: t.products['industrial-coarse-salt'].name,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/products/coarse-1.jpg",
       category: language === "en" ? "Industrial Salt" : "Muối Công Nghiệp",
       description: t.products['industrial-coarse-salt'].usageText,
       slug: "industrial-coarse-salt",

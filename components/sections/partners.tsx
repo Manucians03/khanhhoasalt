@@ -14,7 +14,7 @@ const Partners = () => {
     {
       id: 1,
       name: "VIFON",
-      logo: "/placeholder.svg?height=80&width=120",
+      logo: "/images/partners/vifon.png",
       testimonial:
         language === "en"
           ? "As a brand providing industrial food products, we highly value the quality of Khanh Hoa Salt products. The refined salt is clean, has a pure salty taste and natural origin."
@@ -23,7 +23,7 @@ const Partners = () => {
     {
       id: 2,
       name: "ACECOOK",
-      logo: "/placeholder.svg?height=80&width=120",
+      logo: "/images/partners/acecook.png",
       testimonial:
         language === "en"
           ? "Acecook trusts Khanh Hoa Salt as a strategic partner in our supply chain. The salt has high purity, uniform particles, and stable salty taste."
@@ -32,7 +32,7 @@ const Partners = () => {
     {
       id: 3,
       name: "C.P. GROUP",
-      logo: "/placeholder.svg?height=80&width=120",
+      logo: "/images/partners/cp-group.png",
       testimonial:
         language === "en"
           ? "The salt products have high purity, rich natural minerals and stable composition, very suitable for nutrition formulas in livestock industry."
@@ -87,7 +87,7 @@ const Partners = () => {
           {partners.map((partner, index) => (
             <div
               key={partner.id}
-              ref={(el) => (itemRefs.current[index] = el)}
+              ref={(el) => { itemRefs.current[index] = el }}
               data-id={partner.id}
               className={`transition-all duration-700 ${
                 visibleItems.includes(partner.id) ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"

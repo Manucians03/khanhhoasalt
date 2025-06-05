@@ -12,10 +12,13 @@ const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
 
   const images = [
-    "/placeholder.svg?height=500&width=600&text=Salt+Production+1",
-    "/placeholder.svg?height=500&width=600&text=Salt+Fields+2",
-    "/placeholder.svg?height=500&width=600&text=Quality+Control+3",
-    "/placeholder.svg?height=500&width=600&text=Packaging+4",
+    "/images/company/company-1.jpg",
+    "/images/company/company-2.jpg",
+    "/images/company/company-3.jpg",
+    "/images/company/company-4.jpg",
+    "/images/products/all-1.jpg",
+    "/images/products/all-2.jpg",
+    "/images/products/all-3.jpg",
   ]
 
   useEffect(() => {

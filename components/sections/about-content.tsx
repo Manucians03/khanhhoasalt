@@ -21,11 +21,9 @@ const AboutContent = () => {
           <Card className="text-center hover-lift">
             <CardContent className="p-8">
               <Target className="h-12 w-12 text-primary mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-4">{language === "en" ? "Our Mission" : "Sứ Mệnh"}</h3>
+              <h3 className="text-xl font-bold mb-4">{t.items.mission.title}</h3>
               <p className="text-muted-foreground">
-                {language === "en"
-                  ? "Providing high-quality salt products for Vietnamese health and well-being"
-                  : "Cung cấp sản phẩm muối chất lượng cao vì sức khỏe người tiêu dùng Việt"}
+                {t.items.mission.description}
               </p>
             </CardContent>
           </Card>
@@ -33,11 +31,9 @@ const AboutContent = () => {
           <Card className="text-center hover-lift">
             <CardContent className="p-8">
               <Eye className="h-12 w-12 text-primary mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-4">{language === "en" ? "Our Vision" : "Tầm Nhìn"}</h3>
+              <h3 className="text-xl font-bold mb-4">{t.items.vision.title}</h3>
               <p className="text-muted-foreground">
-                {language === "en"
-                  ? "To become the leading salt company in Southeast Asia by 2028"
-                  : "Trở thành doanh nghiệp hàng đầu về muối tại Đông Nam Á vào năm 2028"}
+                {t.items.vision.description}
               </p>
             </CardContent>
           </Card>
@@ -45,11 +41,9 @@ const AboutContent = () => {
           <Card className="text-center hover-lift">
             <CardContent className="p-8">
               <Award className="h-12 w-12 text-primary mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-4">{language === "en" ? "Our Values" : "Giá Trị"}</h3>
+              <h3 className="text-xl font-bold mb-4">{t.items.history.title}</h3>
               <p className="text-muted-foreground">
-                {language === "en"
-                  ? "Quality, innovation, community health, and social responsibility"
-                  : "Chất lượng, đổi mới, sức khỏe cộng đồng và trách nhiệm xã hội"}
+                {t.items.history.description}
               </p>
             </CardContent>
           </Card>
@@ -101,7 +95,7 @@ const AboutContent = () => {
               <Card key={index} className="text-center hover-lift">
                 <CardContent className="p-8">
                   <Avatar className="w-24 h-24 mx-auto mb-4">
-                    <AvatarImage src={"/placeholder.svg"} alt={member.name} />
+                    <AvatarImage src={member.image} alt={member.name} />
                     <AvatarFallback>
                       {member.name
                         .split(" ")

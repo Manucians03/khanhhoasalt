@@ -58,22 +58,22 @@ export const translations = {
       title: "About Us",
       description:
         "Khanh Hoa Salt Co., Ltd specializes in providing high-quality salt products including iodized salt, refined salt, pure salt, industrial salt, and specialized salt products.",
-      items: [
-        {
+      items: {
+        'vision': {
           title: "Vision",
           description:
             "We want to become a top company in salt production and supply chain in Southeast Asia by 2028 and Asia by 2035.",
         },
-        {
+        'mission': {
           title: "Mission",
           description: "We want to provide high quality salt products for the health of Vietnamese consumers.",
         },
-        {
+        'history': {
           title: "History",
           description:
             "Khanh Hoa Salt Co, Ltd was established in 2002, headquartered in Hai Phong City. We started exporting salt from Vietnam to Japan since 2005.",
         },
-      ],
+      },
       value: "Core Values",
       valueText: [
         {
@@ -105,6 +105,7 @@ export const translations = {
           name: "Bui Dinh Phang",
           position: "CEO and Founder",
           description: "Leading the company with 20+ years of experience", 
+          image: "/images/team/ceo.png",
         },
       ],
       contactTitle: "Ready to Partner With Us?",
@@ -289,22 +290,22 @@ export const translations = {
       title: "Về Chúng Tôi",
       description:
         "Công ty TNHH Muối Khánh Hòa là đơn vị chuyên cung cấp đa dạng các sản phẩm về muối, bao gồm: muối i-ốt, muối tinh, muối tinh khiết, muối công nghiệp,... và các sản phẩm muối chuyên biệt khác.",
-      items: [
-        {
+      items: {
+        'vision': {
           title: "Tầm nhìn",
           description:
             "Hướng tới trở thành doanh nghiệp top 1 trong lĩnh vực sản xuất và cung cấp các sản phẩm về muối tại Đông Nam Á vào năm 2028 và Châu Á vào năm 2035.",
         },
-        {
+        'mission': {
           title: "Sứ mệnh",
           description: "Cung cấp sản phẩm muối chất lượng cao vì sức khỏe người tiêu dùng Việt.",
         },
-        {
+        'history': {
           title: "Lịch sử",
           description:
             "Công ty TNHH Muối Khánh Hòa được thành lập vào năm 2002, có trụ sở đặt tại Thành phố Hải Phòng. Chúng tôi là một trong những đơn vị xuất khẩu muối sang thị trường Nhật Bản tại Việt Nam từ 2005.",
         },
-      ],
+      },
       value: "Giá trị cốt lõi",
       valueText: [
         {
@@ -336,6 +337,7 @@ export const translations = {
           name: "Bùi Đình Phăng",
           position: "Tổng Giám Đốc và Sáng Lập",
           description: "Lãnh đạo công ty với hơn 20 năm kinh nghiệm",
+          image: "/images/team/ceo.png",
         },
       ],
 
