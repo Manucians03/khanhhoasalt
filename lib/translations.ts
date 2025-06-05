@@ -37,17 +37,17 @@ export const translations = {
         text: "What Our Customer Says About Our Services",
         items: [
           {
-            name: "VIFON",
+            name: "Instant Noodles Company",
             description:
-              "Vifon is a brand that provides industrial food products and particularly instant noodles, we highly evaluate the quality of Khanh Hoa Salt products. The coarse salt, pure and natural with a salty taste and stable, very suitable for the standards of strict in instant noodle manufacturing.",
+              "As a brand that provides industrial food products and particularly instant noodles, we highly evaluate the quality of Khanh Hoa Salt products. The coarse salt, pure and natural with a salty taste and stable, very suitable for the standards of strict in instant noodle manufacturing.",
+          },  
+          {
+            name: "Food Processing Company",
+            description:
+              "We highly trusts Khanh Hoa Salt as a partner to supply ingredients for its products because this is a type of salt with high purity, even distribution, salty and stable taste, very suitable for the standards of strict in instant noodle manufacturing.",
           },
           {
-            name: "ACECOOK",
-            description:
-              "Acecook highly trusts Khanh Hoa Salt as a partner to supply ingredients for its products because this is a type of salt with high purity, even distribution, salty and stable taste, very suitable for the standards of strict in instant noodle manufacturing.",
-          },
-          {
-            name: "C.P. GROUP",
+            name: "Livestock Farming Company",
             description:
               "The salt product at Khanh Hoa Salt has high purity, rich natural minerals and stable composition, very suitable for nutrition formulas in the livestock industry.",
           },
@@ -269,17 +269,17 @@ export const translations = {
         text: "Khách Hàng Nói Gì Về Chúng Tôi",
         items: [
           {
-            name: "VIFON",
+            name: "Doanh Nghiệp Chế Biến Mỳ Ăn Liền",
             description:
               "Là một thương hiệu cung cấp các sản phẩm thực phẩm công nghiệp và đặc biệt là các dòng sản phẩm ăn liền, chúng tôi đánh giá cao chất lượng sản phẩm của Muối Khánh Hòa. Hạt muối khô, sạch có vị mặn thanh và có nguồn gốc tự nhiên.",
           },
           {
-            name: "ACECOOK",
+            name: "Doanh Nghiệp Chế Biến Thực Phẩm",
             description:
               "Acecook rất tin tưởng lựa chọn Muối Khánh Hòa làm đối tác cung cấp nguyên liệu làm gia vị cho sản phẩm của mình bởi đây là loại muối có độ tinh khiết cao, hạt đều, có vị mặn dịu và ổn định.",
           },
           {
-            name: "C.P. GROUP",
+            name: "Doanh Nghiệp Chăn Nuôi Gia Súc",
             description:
               "Sản phẩm muối tại Muối Khánh Hòa có độ tinh khiết cao, giàu khoáng chất tự nhiên và ổn định về thành phần, rất phù hợp để đưa vào các công thức dinh dưỡng trong ngành chăn nuôi.",
           },

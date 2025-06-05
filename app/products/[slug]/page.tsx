@@ -175,7 +175,7 @@ export default function ProductDetailPage() {
             <div className="grid lg:grid-cols-2 gap-12">
               {/* Product Image Carousel */}
               <div className="relative">
-                <div className="relative w-full h-96 lg:h-[500px] rounded-lg shadow-lg overflow-hidden">
+                <div className="relative w-full h-[450px] lg:h-[600px] rounded-lg shadow-lg overflow-hidden">
                   {product.images.map((image, index) => (
                     <img
                       key={index}

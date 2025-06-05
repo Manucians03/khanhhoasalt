@@ -126,7 +126,7 @@ const AboutContent = () => {
             <p className="text-lg opacity-90 mb-8 max-w-2xl mx-auto">
               {t.contactDescription}
             </p>
-            <Button variant="secondary" size="lg">
+            <Button variant="secondary" size="lg" onClick={() => window.location.href = "/contact"}>
               {t.contactButton}
             </Button>
           </CardContent>

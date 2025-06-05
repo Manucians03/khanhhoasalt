@@ -5,6 +5,7 @@ import Products from "@/components/sections/products"
 import CoreValues from "@/components/sections/core-values"
 import Partners from "@/components/sections/partners"
 import Contact from "@/components/sections/contact"
+import Quality from "@/components/sections/quality"
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Products />
         <CoreValues />
         <Partners />
+        <Quality />
         <Contact />
       </main>
       <Footer />

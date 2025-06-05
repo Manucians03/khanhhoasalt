@@ -7,6 +7,7 @@ import { Separator } from "@/components/ui/separator"
 import { Package, Award, Truck, Shield } from "lucide-react"
 import { useLanguage } from "@/components/providers/language-provider"
 import { translations } from "@/lib/translations"
+import Quality from "./quality"
 
 const ProductsContent = () => {
   const { language } = useLanguage()
@@ -176,40 +177,7 @@ const ProductsContent = () => {
         </div>
 
         {/* Quality Assurance Section */}
-        <div className="mt-20">
-          <Card className="bg-primary text-primary-foreground">
-            <CardContent className="p-12 text-center">
-              <h3 className="text-2xl lg:text-3xl font-bold mb-6">
-                {language === "en" ? "Quality Assurance" : "Đảm Bảo Chất Lượng"}
-              </h3>
-              <div className="grid md:grid-cols-3 gap-8">
-                <div className="flex flex-col items-center">
-                  <Shield className="h-12 w-12 mb-4 opacity-80" />
-                  <h4 className="font-semibold mb-2">ISO 22000:2018</h4>
-                  <p className="text-sm opacity-80">
-                    {language === "en" ? "Food Safety Management" : "Quản Lý An Toàn Thực Phẩm"}
-                  </p>
-                </div>
-                <div className="flex flex-col items-center">
-                  <Award className="h-12 w-12 mb-4 opacity-80" />
-                  <h4 className="font-semibold mb-2">HACCP</h4>
-                  <p className="text-sm opacity-80">
-                    {language === "en"
-                      ? "Hazard Analysis Critical Control"
-                      : "Phân Tích Mối Nguy Điểm Kiểm Soát Tới Hạn"}
-                  </p>
-                </div>
-                <div className="flex flex-col items-center">
-                  <Truck className="h-12 w-12 mb-4 opacity-80" />
-                  <h4 className="font-semibold mb-2">GMP</h4>
-                  <p className="text-sm opacity-80">
-                    {language === "en" ? "Good Manufacturing Practice" : "Thực Hành Sản Xuất Tốt"}
-                  </p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
+        <Quality />
       </div>
     </section>
   )

@@ -4,41 +4,13 @@ import { Badge } from "@/components/ui/badge"
 import { Quote } from "lucide-react"
 import { useLanguage } from "@/components/providers/language-provider"
 import { useEffect, useRef, useState } from "react"
+import { translations } from "@/lib/translations"
 
 const Partners = () => {
   const { language } = useLanguage()
+  const t = translations[language].home.partners
   const [visibleItems, setVisibleItems] = useState<number[]>([])
   const itemRefs = useRef<(HTMLDivElement | null)[]>([])
-
-  const partners = [
-    {
-      id: 1,
-      name: "VIFON",
-      logo: "/images/partners/vifon.png",
-      testimonial:
-        language === "en"
-          ? "As a brand providing industrial food products, we highly value the quality of Khanh Hoa Salt products. The refined salt is clean, has a pure salty taste and natural origin."
-          : "Là thương hiệu cung cấp sản phẩm thực phẩm công nghiệp, chúng tôi đánh giá cao chất lượng sản phẩm Muối Khánh Hòa. Hạt muối khô, sạch có vị mặn thanh và nguồn gốc tự nhiên.",
-    },
-    {
-      id: 2,
-      name: "ACECOOK",
-      logo: "/images/partners/acecook.png",
-      testimonial:
-        language === "en"
-          ? "Acecook trusts Khanh Hoa Salt as a strategic partner in our supply chain. The salt has high purity, uniform particles, and stable salty taste."
-          : "Acecook tin tưởng Muối Khánh Hòa là đối tác chiến lược trong chuỗi cung ứng. Muối có độ tinh khiết cao, hạt đều và vị mặn ổn định.",
-    },
-    {
-      id: 3,
-      name: "C.P. GROUP",
-      logo: "/images/partners/cpgroup.png",
-      testimonial:
-        language === "en"
-          ? "The salt products have high purity, rich natural minerals and stable composition, very suitable for nutrition formulas in livestock industry."
-          : "Sản phẩm muối có độ tinh khiết cao, giàu khoáng chất tự nhiên và ổn định thành phần, rất phù hợp cho công thức dinh dưỡng chăn nuôi.",
-    },
-  ]
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -65,7 +37,7 @@ const Partners = () => {
   }, [])
 
   return (
-    <section className="py-20 bg-background">
+    <section className="py-20 pb-8 bg-background">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in-up">
@@ -84,31 +56,26 @@ const Partners = () => {
 
         {/* Partners Grid */}
         <div className="grid lg:grid-cols-3 gap-8">
-          {partners.map((partner, index) => (
+            {t.items.map((partner, index) => (
             <div
-              key={partner.id}
+              key={index}
               ref={(el) => { itemRefs.current[index] = el }}
-              data-id={partner.id}
+              data-id={index}
               className={`transition-all duration-700 ${
-                visibleItems.includes(partner.id) ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+                visibleItems.includes(index) ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
               }`}
               style={{ transitionDelay: `${index * 200}ms` }}
             >
               <Card className="hover-lift h-full">
-                <CardContent className="p-8">
+                <CardContent className="p-8 flex flex-col h-full">
                   {/* Quote Icon */}
                   <Quote className="h-8 w-8 text-primary mb-4" />
 
                   {/* Testimonial */}
-                  <p className="text-muted-foreground mb-6 italic">"{partner.testimonial}"</p>
+                  <p className="text-muted-foreground mb-6 italic flex-grow">"{partner.description}"</p>
 
                   {/* Partner Info */}
-                  <div className="flex items-center space-x-4 mt-auto">
-                    <img
-                      src={partner.logo || "/placeholder.svg"}
-                      alt={partner.name}
-                      className="h-12 w-auto object-contain"
-                    />
+                  <div className="flex items-center space-x-4">
                     <div>
                       <div className="font-semibold">{partner.name}</div>
                       <div className="text-sm text-muted-foreground">
