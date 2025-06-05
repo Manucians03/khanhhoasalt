@@ -32,7 +32,7 @@ const Partners = () => {
     {
       id: 3,
       name: "C.P. GROUP",
-      logo: "/images/partners/cp-group.png",
+      logo: "/images/partners/cpgroup.png",
       testimonial:
         language === "en"
           ? "The salt products have high purity, rich natural minerals and stable composition, very suitable for nutrition formulas in livestock industry."
