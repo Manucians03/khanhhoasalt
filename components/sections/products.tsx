@@ -26,7 +26,7 @@ const Products = () => {
       name: t.products['khanh-vinh-dried-refined-salt'].name,
       image: "/images/products/dried-1.jpg",
       description: t.products['khanh-vinh-dried-refined-salt'].usageText,
-      slug: "khanh-vinh-pure-salt",
+      slug: "khanh-vinh-dried-refined-salt",
     },
     {
       id: 3,
