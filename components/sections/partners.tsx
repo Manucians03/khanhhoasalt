@@ -37,7 +37,7 @@ const Partners = () => {
   }, [])
 
   return (
-    <section className="py-20 pb-8 bg-background">
+    <section className="py-10 bg-background bg-muted/30">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in-up">

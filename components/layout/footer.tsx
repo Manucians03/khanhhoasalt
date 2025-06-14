@@ -86,6 +86,16 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link href="/products/khanh-vinh-iodised-salt" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  {t['khanh-vinh-iodised-salt']}
+                </Link>
+              </li>
+              <li>
+                <Link href="/products/khanh-vinh-iodised-salt-premium" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  {t['khanh-vinh-iodised-salt-premium']}
+                </Link>
+              </li>
+              <li>
                 <Link href="/products/pure-coarse-salt" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   {t['pure-coarse-salt']}
                 </Link>

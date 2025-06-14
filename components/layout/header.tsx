@@ -46,8 +46,13 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2 group">
-            <div className={`text-2xl lg:text-3xl font-bold group-hover:scale-105 transition-all duration-300 ${
+          <Link href="/" className="flex items-center space-x-2 group"> 
+            <img 
+              src="/images/team/logo.jpg" 
+              alt="Khanh Hoa Salt Logo" 
+              className="h-12 w-12 object-cover transition-all duration-300 rounded-sm"
+            />
+            <div className={`text-2xl lg:text-3xl font-bold transition-all duration-300 ${
               isScrolled ? "text-red-600" : "text-white"
             }`}>
               {t.header.name}

@@ -23,6 +23,8 @@ export const translations = {
       ourProducts: "Our Products",
       'khanh-vinh-refined-salt': "Khanh Vinh Refined Salt",
       'khanh-vinh-dried-refined-salt': "Khanh Vinh Dried Refined Salt",
+      'khanh-vinh-iodised-salt': "Khanh Vinh Iodised Salt",
+      'khanh-vinh-iodised-salt-premium': "Khanh Vinh Iodised Salt Premium",
       'pure-coarse-salt': "Pure Coarse Salt",
       'industrial-coarse-salt': "Industrial Coarse Salt",
     },
@@ -37,17 +39,17 @@ export const translations = {
         text: "What Our Customer Says About Our Services",
         items: [
           {
-            name: "Instant Noodles Company",
+            name: "Instant Noodle Manufacturing Company",
             description:
-              "As a brand that provides industrial food products and particularly instant noodles, we highly evaluate the quality of Khanh Hoa Salt products. The coarse salt, pure and natural with a salty taste and stable, very suitable for the standards of strict in instant noodle manufacturing.",
+              "As a brand that provides instant noodles, we highly evaluate the quality of Khanh Hoa Salt products. The coarse salt, pure and natural with a salty taste and stable, very suitable for the standards of strict in instant noodle manufacturing.",
           },  
           {
-            name: "Food Processing Company",
+            name: "Seasoning Powder Manufacturing Company",
             description:
               "We highly trusts Khanh Hoa Salt as a partner to supply ingredients for its products because this is a type of salt with high purity, even distribution, salty and stable taste, very suitable for the standards of strict in instant noodle manufacturing.",
           },
           {
-            name: "Livestock Farming Company",
+            name: "Livestock Feed Manufacturing Company",
             description:
               "The salt product at Khanh Hoa Salt has high purity, rich natural minerals and stable composition, very suitable for nutrition formulas in the livestock industry.",
           },
@@ -183,6 +185,30 @@ export const translations = {
           certificateText: "ISO 22000:2018, first issued on 01/07/2016, renewed on 06/07/2022.",
           usageText: "Best used for instant noodles, sauces, instant soups, etc.",
         },
+        'khanh-vinh-iodised-salt': {
+          name: "Khanh Vinh Iodised Salt",
+          ingredientsText: ">99.996% NaCl, 0.002% < I < 0.004%",
+          statusText: "The salt is in iodised, dry crystals form with no visible impurities.",
+          expirationText: "5 years from date of production.",
+          storageText: "The product is packaged in a polyethylene bag to ensure quality according to current health regulations, with a polypropylene outer packaging.", 
+          weightText:
+            "The product's weights range between 150g, 200g, 300g, 1kg, 20kg,... 25kg, 50kg, 1 tonne, suitable for all uses. Measurement error is compliant with current regulations of Ministry of Science and Technology.",
+          qualityText: "Compliant with national standards for iodised salt QCVN 01 - 194:2021/BNNPTNT",
+          certificateText: "ISO 22000:2018, first issued on 01/07/2016, renewed on 06/07/2022.",
+          usageText: "Best used directly for human consumption.",
+        },
+        'khanh-vinh-iodised-salt-premium': {
+          name: "Khanh Vinh Iodised Salt Premium",
+          ingredientsText: ">99.996% NaCl, 0.002% < I < 0.004%",
+          statusText: "The salt is in iodised, dry crystals form with no visible impurities.",
+          expirationText: "5 years from date of production.",
+          storageText: "The product is packaged in a polyethylene bag to ensure quality according to current health regulations, with a polypropylene outer packaging.",
+          weightText:
+            "The product's weights range between 150g, 200g, 300g, 1kg, 20kg,... 25kg, 50kg, 1 tonne, suitable for all uses. Measurement error is compliant with current regulations of Ministry of Science and Technology.",
+          qualityText: "Compliant with national standards for iodised salt QCVN 01 - 194:2021/BNNPTNT",
+          certificateText: "ISO 22000:2018, first issued on 01/07/2016, renewed on 06/07/2022.",
+          usageText: "Best used directly for human consumption.",
+        },
         'pure-coarse-salt': { 
           name: "Pure Coarse Salt",
           ingredientsText: "100% NaCl",
@@ -257,6 +283,8 @@ export const translations = {
       'khanh-vinh-dried-refined-salt': "Muối tinh sấy Khánh Vinh",
       'pure-coarse-salt': "Muối hạt sạch",
       'industrial-coarse-salt': "Muối hạt công nghiệp",
+      'khanh-vinh-iodised-salt': "Muối I-ốt Khánh Vinh",
+      'khanh-vinh-iodised-salt-premium': "Muối I-ốt Khánh Vinh Mới",
     },
     home: {
       hero: {
@@ -269,17 +297,17 @@ export const translations = {
         text: "Khách Hàng Nói Gì Về Chúng Tôi",
         items: [
           {
-            name: "Doanh Nghiệp Chế Biến Mỳ Ăn Liền",
+            name: "Doanh Nghiệp Sản Xuất Mỳ Ăn Liền",
             description:
               "Là một thương hiệu cung cấp các sản phẩm thực phẩm công nghiệp và đặc biệt là các dòng sản phẩm ăn liền, chúng tôi đánh giá cao chất lượng sản phẩm của Muối Khánh Hòa. Hạt muối khô, sạch có vị mặn thanh và có nguồn gốc tự nhiên.",
           },
           {
-            name: "Doanh Nghiệp Chế Biến Thực Phẩm",
+            name: "Doanh Nghiệp Sản Xuất Bột Canh",
             description:
               "Acecook rất tin tưởng lựa chọn Muối Khánh Hòa làm đối tác cung cấp nguyên liệu làm gia vị cho sản phẩm của mình bởi đây là loại muối có độ tinh khiết cao, hạt đều, có vị mặn dịu và ổn định.",
           },
           {
-            name: "Doanh Nghiệp Chăn Nuôi Gia Súc",
+            name: "Doanh Nghiệp Sản Xuất Thức Ăn Chăn Nuôi",
             description:
               "Sản phẩm muối tại Muối Khánh Hòa có độ tinh khiết cao, giàu khoáng chất tự nhiên và ổn định về thành phần, rất phù hợp để đưa vào các công thức dinh dưỡng trong ngành chăn nuôi.",
           },
@@ -415,6 +443,30 @@ export const translations = {
           qualityText: "Phù hợp với quy chuẩn quốc gia đối với muối tinh QCVN 01 - 194:2021/BNNPTNT",
           certificateText: "ISO 22000:2018, được cấp lần đầu ngày 01/07/2016 và được cấp lại ngày 06/07/2022, cấp tại Tổ chức chứng nhận NQA (Anh Quốc).",
           usageText: "Sản phẩm tốt nhất để cho sản xuất bột canh, tương ớt, mì ăn liền,....",
+        },
+        'khanh-vinh-iodised-salt': {
+          name: "Muối I-ốt Khánh Vinh",
+          ingredientsText: ">99.996% NaCl, 0.002% < I < 0.004%",
+          statusText: "Muối ở dạng tinh thể nhỏ, khô rời, không nhìn thấy tạp chất.",
+          expirationText: "5 năm kể từ ngày sản xuất.",
+          storageText: "Sản phẩm được đóng gói bằng túi Polietilen đảm bảo chất lượng theo quy định hiện hành của Bộ Y tế, bên ngoài là bao PP",
+          weightText:
+            "Sản phẩm có đầy đủ các loại định lượng như: 150g, 200g, 300g, 1kg, 20kg,... 25kg, 50kg, 1 tấn phù hợp với mọi mục đích sử dụng. Sai số phù hợp với Quy định hiện hành của Bộ Khoa học công nghệ",
+          qualityText: "Phù hợp với quy chuẩn quốc gia đối với muối tinh QCVN 01 - 194:2021/BNNPTNT",
+          certificateText: "ISO 22000:2018, được cấp lần đầu ngày 01/07/2016 và được cấp lại ngày 06/07/2022, cấp tại Tổ chức chứng nhận NQA (Anh Quốc).",
+          usageText: "Sử dụng ăn trực tiếp.",
+        },
+        'khanh-vinh-iodised-salt-premium': {
+          name: "Muối I-ốt Khánh Vinh Mới",
+          ingredientsText: ">99.996% NaCl, 0.002% < I < 0.004%",
+          statusText: "Muối ở dạng tinh thể nhỏ, khô rời, không nhìn thấy tạp chất.",
+          expirationText: "5 năm kể từ ngày sản xuất.",
+          storageText: "Sản phẩm được đóng gói bằng túi Polietilen đảm bảo chất lượng theo quy định hiện hành của Bộ Y tế, bên ngoài là bao PP",
+          weightText:
+            "Sản phẩm có đầy đủ các loại định lượng như: 150g, 200g, 300g, 1kg, 20kg,... 25kg, 50kg, 1 tấn phù hợp với mọi mục đích sử dụng. Sai số phù hợp với Quy định hiện hành của Bộ Khoa học công nghệ",
+          qualityText: "Phù hợp với quy chuẩn quốc gia đối với muối tinh QCVN 01 - 194:2021/BNNPTNT",
+          certificateText: "ISO 22000:2018, được cấp lần đầu ngày 01/07/2016 và được cấp lại ngày 06/07/2022, cấp tại Tổ chức chứng nhận NQA (Anh Quốc).",
+          usageText: "Sử dụng ăn trực tiếp.",
         },
         'pure-coarse-salt': {
           name: "Muối hạt sạch",

@@ -17,7 +17,7 @@ const Quality = () => {
     }
 
     return (
-        <div className="m-9">
+        <div className="m-10 ml-20 mr-20">
           <Card className="bg-primary text-primary-foreground">
             <CardContent className="p-12 text-center">
               <h3 className="text-2xl lg:text-3xl font-bold mb-6">

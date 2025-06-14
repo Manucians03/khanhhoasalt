@@ -9,9 +9,24 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: {
-    default: "Khanh Hoa Salt Co., Ltd - Pure Salt for Vietnamese Health",
+    default: "Khanh Hoa Salt",
     template: "%s | Khanh Hoa Salt Co., Ltd",
   },
+  icons: {
+    icon: [
+      { url: '/images/team/logo.jpg' },
+    ],
+    apple: [
+      { url: '/images/team/logo.jpg', sizes: '180x180', type: 'image/png' },
+    ],
+    other: [
+      {
+        rel: 'mask-icon',
+        url: '/images/team/logo.jpg',
+      },
+    ],
+  },
+  manifest: '/site.webmanifest',
   description:
     "Premium quality salt products from Vietnam's finest salt fields. Specializing in refined salt, pure salt, industrial salt, and iodized salt with ISO 22000:2018 certification.",
   keywords: [

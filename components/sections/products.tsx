@@ -17,28 +17,42 @@ const Products = () => {
     {
       id: 1,
       name: t.products['khanh-vinh-refined-salt'].name,
-      image: "/images/products/refined-1.jpg",
+      image: "/images/products/refined-3.jpg",
       description: t.products['khanh-vinh-refined-salt'].usageText,
       slug: "khanh-vinh-refined-salt",
     },
     {
       id: 2,
       name: t.products['khanh-vinh-dried-refined-salt'].name,
-      image: "/images/products/dried-1.jpg",
+      image: "/images/products/dried-2.jpg",
       description: t.products['khanh-vinh-dried-refined-salt'].usageText,
       slug: "khanh-vinh-dried-refined-salt",
     },
     {
       id: 3,
+      name: t.products['khanh-vinh-iodised-salt'].name,
+      image: "/images/products/iodised-1.jpg",
+      description: t.products['khanh-vinh-iodised-salt'].usageText,
+      slug: "khanh-vinh-iodised-salt",
+    },
+    {
+      id: 4,
+      name: t.products['khanh-vinh-iodised-salt-premium'].name,
+      image: "/images/products/iodised-premium-1.jpg",
+      description: t.products['khanh-vinh-iodised-salt-premium'].usageText,
+      slug: "khanh-vinh-iodised-salt-premium",
+    },
+    {
+      id: 5, 
       name: t.products['pure-coarse-salt'].name,
-      image: "/images/products/industrial-1.jpg",
+      image: "/images/products/coarse-3.jpg",
       description: t.products['pure-coarse-salt'].usageText,
       slug: "pure-coarse-salt",
     },
     {
-      id: 4,
+      id: 6,
       name: t.products['industrial-coarse-salt'].name,
-      image: "/images/products/coarse-1.jpg",
+      image: "/images/products/industrial-3.jpg",
       description: t.products['industrial-coarse-salt'].usageText,
       slug: "industrial-coarse-salt",
     },
@@ -69,7 +83,7 @@ const Products = () => {
   }, [])
 
   return (
-    <section className="py-20 bg-background">
+    <section className="py-20 pb-10 bg-background">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in-up">
@@ -78,7 +92,7 @@ const Products = () => {
         </div>
 
         {/* Products Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 ml-20 mr-20">
           {products.map((product, index) => (
             <div
               key={product.id}
@@ -90,25 +104,27 @@ const Products = () => {
               style={{ transitionDelay: `${index * 100}ms` }}
             >
               <Link href={`/products/${product.slug}`}>
-                <Card className="group hover-lift cursor-pointer h-full flex flex-col">
-                  <CardHeader className="p-0">
-                    <div className="relative overflow-hidden rounded-t-lg">
-                      <img
-                        src={product.image || "/placeholder.svg"}
-                        alt={product.name}
-                        className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-                    </div>
-                  </CardHeader>
-                  <CardContent className="p-6 flex flex-col flex-grow">
-                    <CardTitle className="mb-2 group-hover:text-primary transition-colors text-lg">
+              <Card className="group hover-lift cursor-pointer h-96 overflow-hidden relative">
+                  {/* Background Image */}
+                  <div className="absolute inset-0">
+                    <img
+                      src={product.image || "/placeholder.svg"}
+                      alt={product.name}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                    {/* Gradient Overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/20 group-hover:from-black/90 group-hover:via-black/50 group-hover:to-black/30 transition-all duration-300" />
+                  </div>
+
+                  {/* Content Overlay */}
+                  <CardContent className="relative z-10 p-6 h-full flex flex-col justify-end text-white">
+                    <h3 className="text-xl font-bold mb-2 group-hover:text-primary-foreground transition-colors">
                       {product.name}
-                    </CardTitle>
-                    <CardDescription className="mb-4 flex-grow text-sm line-clamp-3">
+                    </h3>
+                    <p className="text-sm text-white/90 mb-4 line-clamp-3 group-hover:text-white transition-colors">
                       {product.description}
-                    </CardDescription>
-                    <div className="flex items-center text-primary hover:text-primary/80 mt-auto pt-4">
+                    </p>
+                    <div className="flex items-center text-white group-hover:text-primary-foreground transition-colors">
                       <span className="text-sm font-medium">{t.readMore}</span>
                       <ArrowRight className="ml-1 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                     </div>
