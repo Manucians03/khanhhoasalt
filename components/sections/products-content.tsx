@@ -116,7 +116,7 @@ const ProductsContent = () => {
     {
       id: 6,
       name: t.products["industrial-coarse-salt"].name,
-      image: "/images/products/industrial-3.jpg",
+      image: "/images/products/industrial-1.jpg",
       category: language === "en" ? "Industrial Salt" : "Muối Công Nghiệp",
       description: t.products["industrial-coarse-salt"].usageText,
       slug: "industrial-coarse-salt",

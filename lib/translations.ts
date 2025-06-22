@@ -104,7 +104,7 @@ export const translations = {
       ourTeamDescription: "Meet the experienced professionals leading our company forward",
       ourTeamMembers: [
         {
-          name: "Bui Dinh Phang",
+          name: "Mr. Bui Dinh Phang",
           position: "CEO and Founder",
           description: "Leading the company with 20+ years of experience", 
           image: "/images/team/ceo.png",
@@ -170,7 +170,7 @@ export const translations = {
             "The product's weight ranges between 25kg, 50kg, 1 tonne, suitable for all uses. Measurement error is compliant with current regulations of Ministry of Science and Technology.",
           qualityText: "Compliant with national standards for refined salt QCVN 01 - 194:2021/BNNPTNT",
           certificateText: "ISO 22000:2018, first issued on 01/07/2016, renewed on 06/07/2022.",
-          usageText: "Best used to feed animals and livestock.",
+          usageText: "Best for daily use, including cooking, personal care, and household cleaning.",
         },
         'khanh-vinh-dried-refined-salt': {
           name: "Khanh Vinh Dried Refined Salt",
@@ -183,7 +183,7 @@ export const translations = {
             "The product's weights range between 150g, 200g, 300g, 1kg, 20kg,... 25kg, 50kg, 1 tonne, suitable for all uses. Measurement error is compliant with current regulations of Ministry of Science and Technology.",
           qualityText: "Compliant with national standards for refined salt QCVN 01 - 194:2021/BNNPTNT",
           certificateText: "ISO 22000:2018, first issued on 01/07/2016, renewed on 06/07/2022.",
-          usageText: "Best used for instant noodles, sauces, instant soups, etc.",
+          usageText: "Best used for cooking, personal care, and household cleaning.",
         },
         'khanh-vinh-iodised-salt': {
           name: "Khanh Vinh Iodised Salt",
@@ -195,7 +195,7 @@ export const translations = {
             "The product's weights range between 150g, 200g, 300g, 1kg, 20kg,... 25kg, 50kg, 1 tonne, suitable for all uses. Measurement error is compliant with current regulations of Ministry of Science and Technology.",
           qualityText: "Compliant with national standards for iodised salt QCVN 01 - 194:2021/BNNPTNT",
           certificateText: "ISO 22000:2018, first issued on 01/07/2016, renewed on 06/07/2022.",
-          usageText: "Best used directly for human consumption.",
+          usageText: "Best used directly for human consumption, seasoning powder, and bakery products.",
         },
         'khanh-vinh-iodised-salt-premium': {
           name: "Khanh Vinh Iodised Salt Premium",
@@ -207,7 +207,7 @@ export const translations = {
             "The product's weights range between 150g, 200g, 300g, 1kg, 20kg,... 25kg, 50kg, 1 tonne, suitable for all uses. Measurement error is compliant with current regulations of Ministry of Science and Technology.",
           qualityText: "Compliant with national standards for iodised salt QCVN 01 - 194:2021/BNNPTNT",
           certificateText: "ISO 22000:2018, first issued on 01/07/2016, renewed on 06/07/2022.",
-          usageText: "Best used directly for human consumption.",
+          usageText: "Best used directly for human consumption, seasoning powder, and bakery products.",
         },
         'pure-coarse-salt': { 
           name: "Pure Coarse Salt",
@@ -220,7 +220,7 @@ export const translations = {
             "The product's weights range between 150g, 200g, 300g, 1kg, 20kg,... 25kg, 50kg, 1 tonne, suitable for all uses. Measurement error is compliant with current regulations of Ministry of Science and Technology.",
           qualityText: "Compliant with national standards for refined salt QCVN 01 - 194:2021/BNNPTNT",
           certificateText: "ISO 22000:2018, first issued on 01/07/2016, renewed on 06/07/2022.",
-          usageText: "Best used for processing seafood, pickles, etc.",
+          usageText: "Best used for food processing, agriculture processing, and household cleaning.",
         },
         'industrial-coarse-salt': {
           name: "Industrial Coarse Salt",
@@ -233,7 +233,7 @@ export const translations = {
             "The product's weights range between 150g, 200g, 300g, 1kg, 20kg,... 25kg, 50kg, 1 tonne, suitable for all uses. Measurement error is compliant with current regulations of Ministry of Science and Technology.",
           qualityText: "Compliant with national standards for refined salt QCVN 01 - 194:2021/BNNPTNT",
           certificateText: "ISO 22000:2018, first issued on 01/07/2016, renewed on 06/07/2022.",
-          usageText: "Best used for industrial use, chemical industry, textile industry, etc.",
+          usageText: "Best used for food processing, textile industry, and chemical industry.",
         },
       },
     },
@@ -241,7 +241,7 @@ export const translations = {
       title: "Contact Us",
       text: "If you have any questions or need help, feel free to contact us.",
       youHaveAnyQuestions: "You have any questions?",
-      sendUsMessage: "Send Us Message",
+      sendUsMessage: "Send Us A Message",
       yourName: "Your Name",
       yourEmail: "Your Email",
       yourSubject: "Your Subject",
@@ -304,7 +304,7 @@ export const translations = {
           {
             name: "Doanh Nghiệp Sản Xuất Bột Canh",
             description:
-              "Acecook rất tin tưởng lựa chọn Muối Khánh Hòa làm đối tác cung cấp nguyên liệu làm gia vị cho sản phẩm của mình bởi đây là loại muối có độ tinh khiết cao, hạt đều, có vị mặn dịu và ổn định.",
+              "Chúng tôi rất tin tưởng lựa chọn Muối Khánh Hòa làm đối tác cung cấp nguyên liệu làm gia vị cho sản phẩm của mình bởi đây là loại muối có độ tinh khiết cao, hạt đều, có vị mặn dịu và ổn định.",
           },
           {
             name: "Doanh Nghiệp Sản Xuất Thức Ăn Chăn Nuôi",
@@ -362,8 +362,8 @@ export const translations = {
       ourTeamDescription: "Gặp gỡ những chuyên gia giàu kinh nghiệm dẫn dắt công ty phát triển",
       ourTeamMembers: [
         {
-          name: "Bùi Đình Phăng",
-          position: "Tổng Giám Đốc và Sáng Lập",
+          name: "Ông Bùi Đình Phăng",
+          position: "Tổng Giám Đốc và Nhà Sáng Lập",
           description: "Lãnh đạo công ty với hơn 20 năm kinh nghiệm",
           image: "/images/team/ceo.png",
         },
@@ -429,7 +429,7 @@ export const translations = {
             "Sản phẩm có đầy đủ các loại định lượng như: 25kg, 50kg, 1 tấn phù hợp với mọi mục đích sử dụng. Sai số phù hợp với Quy định hiện hành của Bộ Khoa học công nghệ",
           qualityText: "Phù hợp với quy chuẩn quốc gia đối với muối tinh QCVN 01 - 194:2021/BNNPTNT",
           certificateText: "ISO 22000:2018, được cấp lần đầu ngày 01/07/2016 và được cấp lại ngày 06/07/2022, cấp tại Tổ chức chứng nhận NQA (Anh Quốc).",
-          usageText: "Được sử dụng cho thức ăn của gia súc.",
+          usageText: "Được sử dụng để chế biến thực phẩm, chế biến sản phẩm nông nghiệp, và vệ sinh gia đình.",
         },
         'khanh-vinh-dried-refined-salt': {
           name: "Muối tinh sấy Khánh Vinh",
@@ -442,7 +442,7 @@ export const translations = {
             "Sản phẩm có đầy đủ các loại định lượng như: 150g, 200g, 300g, 1kg, 20kg,... 25kg, 50kg, 1 tấn phù hợp với mọi mục đích sử dụng. Sai số phù hợp với Quy định hiện hành của Bộ Khoa học công nghệ",
           qualityText: "Phù hợp với quy chuẩn quốc gia đối với muối tinh QCVN 01 - 194:2021/BNNPTNT",
           certificateText: "ISO 22000:2018, được cấp lần đầu ngày 01/07/2016 và được cấp lại ngày 06/07/2022, cấp tại Tổ chức chứng nhận NQA (Anh Quốc).",
-          usageText: "Sản phẩm tốt nhất để cho sản xuất bột canh, tương ớt, mì ăn liền,....",
+          usageText: "Sản phẩm tốt nhất để cho bảo quản thực phẩm, chăm sóc sức khỏe, và vệ sinh gia đình.",
         },
         'khanh-vinh-iodised-salt': {
           name: "Muối I-ốt Khánh Vinh",
@@ -454,7 +454,7 @@ export const translations = {
             "Sản phẩm có đầy đủ các loại định lượng như: 150g, 200g, 300g, 1kg, 20kg,... 25kg, 50kg, 1 tấn phù hợp với mọi mục đích sử dụng. Sai số phù hợp với Quy định hiện hành của Bộ Khoa học công nghệ",
           qualityText: "Phù hợp với quy chuẩn quốc gia đối với muối tinh QCVN 01 - 194:2021/BNNPTNT",
           certificateText: "ISO 22000:2018, được cấp lần đầu ngày 01/07/2016 và được cấp lại ngày 06/07/2022, cấp tại Tổ chức chứng nhận NQA (Anh Quốc).",
-          usageText: "Sử dụng ăn trực tiếp.",
+          usageText: "Sử dụng ăn trực tiếp, làm bột canh, sản phẩm bánh kẹo,...",
         },
         'khanh-vinh-iodised-salt-premium': {
           name: "Muối I-ốt Khánh Vinh Mới",
@@ -466,7 +466,7 @@ export const translations = {
             "Sản phẩm có đầy đủ các loại định lượng như: 150g, 200g, 300g, 1kg, 20kg,... 25kg, 50kg, 1 tấn phù hợp với mọi mục đích sử dụng. Sai số phù hợp với Quy định hiện hành của Bộ Khoa học công nghệ",
           qualityText: "Phù hợp với quy chuẩn quốc gia đối với muối tinh QCVN 01 - 194:2021/BNNPTNT",
           certificateText: "ISO 22000:2018, được cấp lần đầu ngày 01/07/2016 và được cấp lại ngày 06/07/2022, cấp tại Tổ chức chứng nhận NQA (Anh Quốc).",
-          usageText: "Sử dụng ăn trực tiếp.",
+          usageText: "Sử dụng ăn trực tiếp, làm bột canh, sản phẩm bánh kẹo,...",
         },
         'pure-coarse-salt': {
           name: "Muối hạt sạch",
@@ -479,7 +479,7 @@ export const translations = {
             "Sản phẩm có đầy đủ các loại định lượng như: 150g, 200g, 300g, 1kg, 20kg,... 25kg, 50kg, 1 tấn phù hợp với mọi mục đích sử dụng. Sai số phù hợp với Quy định hiện hành của Bộ Khoa học công nghệ",
           qualityText: "Phù hợp với quy chuẩn quốc gia đối với muối tinh QCVN 01 - 194:2021/BNNPTNT",
           certificateText: "ISO 22000:2018, được cấp lần đầu ngày 01/07/2016 và được cấp lại ngày 06/07/2022, cấp tại Tổ chức chứng nhận NQA (Anh Quốc).",
-          usageText: "Được dùng để chế biến thủy hải sản, muối dưa,...",
+          usageText: "Được dùng để chế biến thực phẩm, chế biến sản phẩm nông nghiệp, và vệ sinh gia đình.",
         },
         'industrial-coarse-salt': {
           name: "Muối hạt công nghiệp",
@@ -492,7 +492,7 @@ export const translations = {
             "Sản phẩm có đầy đủ các loại định lượng như: 150g, 200g, 300g, 1kg, 20kg,... 25kg, 50kg, 1 tấn phù hợp với mọi mục đích sử dụng. Sai số phù hợp với Quy định hiện hành của Bộ Khoa học công nghệ",
           qualityText: "Phù hợp với quy chuẩn quốc gia đối với muối tinh QCVN 01 - 194:2021/BNNPTNT",
           certificateText: "ISO 22000:2018, được cấp lần đầu ngày 01/07/2016 và được cấp lại ngày 06/07/2022, cấp tại Tổ chức chứng nhận NQA (Anh Quốc).",
-          usageText: "Được dùng trong sản xuất công nghiệp, chế biến thực phẩm, dệt may, hóa chất,...",
+          usageText: "Được dùng trong sản xuất công nghiệp thực phẩm, dệt may, hóa chất,...",
         },
       },
     },
@@ -510,7 +510,7 @@ export const translations = {
       emergencyLine: "Đường Dây Nóng",
       ourEmail: "Email Của Chúng Tôi",
       location: "Địa Chỉ",
-      address: "Phú Hải, phường Anh Dũng, quận Dương Kinh, Thành phố Hải Phòng, Việt Nam",
+      address: "Khu Phú Hải, phường Anh Dũng, quận Dương Kinh, Thành phố Hải Phòng, Việt Nam",
       phone: "(+84) 2253581589",
       email: "thangkhanhhoa67@gmail.com",
       hours: "Thứ Hai - Thứ Sáu: 8:00 - 17:00, Thứ Bảy - Chủ Nhật: 8:00 - 12:00",

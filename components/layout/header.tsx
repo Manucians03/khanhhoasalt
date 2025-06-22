@@ -50,7 +50,7 @@ const Header = () => {
             <img 
               src="/images/team/logo.jpg" 
               alt="Khanh Hoa Salt Logo" 
-              className="h-12 w-12 object-cover transition-all duration-300 rounded-sm"
+              className="h-12 w-13 object-cover transition-all duration-300 rounded-sm"
             />
             <div className={`text-2xl lg:text-3xl font-bold transition-all duration-300 ${
               isScrolled ? "text-red-600" : "text-white"

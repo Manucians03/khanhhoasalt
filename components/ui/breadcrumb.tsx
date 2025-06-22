@@ -5,17 +5,15 @@ import { useLanguage } from "@/components/providers/language-provider"
 interface BreadcrumbProps {
   heading: string
   description?: string
-  backgroundImage?: string
 }
 
-const Breadcrumb = ({ heading, description, backgroundImage }: BreadcrumbProps) => {
+const Breadcrumb = ({ heading, description }: BreadcrumbProps) => {
   const { language } = useLanguage()
 
   return (
     <div
       className="relative py-20 lg:py-32 bg-gradient-to-r from-primary to-primary/80 overflow-hidden"
       style={{
-        backgroundImage: backgroundImage ? `url(${backgroundImage})` : undefined,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

@@ -37,16 +37,15 @@ const Hero = () => {
   }
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-r from-primary to-primary/80 pt-20">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div
-          className="absolute inset-0"
-          style={{
-            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fillRule='evenodd'%3E%3Cg fill='%23ffffff' fillOpacity='0.1'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-          }}
-        />
-      </div>
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+      {/* Background Image */}
+      <div className="absolute inset-0 w-full h-full bg-primary/95" />
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat saturate-0 -z-10"
+        style={{
+          backgroundImage: "url('/images/company/field.png')",
+        }}
+      />
 
       {/* Content */}
       <div className="relative container mx-auto px-4 py-20">

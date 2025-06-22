@@ -46,7 +46,7 @@ const ContactContent = () => {
               <CardHeader>
                 <CardTitle className="flex items-center text-2xl">
                   <MessageSquare className="h-6 w-6 mr-3 text-primary" />
-                  {language === "en" ? "Send us a message" : "Gửi tin nhắn cho chúng tôi"}
+                  {language === "en" ? "Send Us A Message" : "Gửi Tin Nhắn Cho Chúng Tôi"}
                 </CardTitle>
               </CardHeader>
               <CardContent>

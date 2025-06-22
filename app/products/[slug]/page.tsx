@@ -44,7 +44,6 @@ export default function ProductDetailPage() {
         applications: [
           language === "en" ? "Instant noodles" : "Mì ăn liền",
           language === "en" ? "Seasoning powder" : "Bột canh",
-          language === "en" ? "Food service" : "Dịch vụ ăn uống",
           language === "en" ? "Bakery products" : "Sản phẩm bánh kẹo",
         ],
       },
@@ -55,7 +54,7 @@ export default function ProductDetailPage() {
         description: t.products['khanh-vinh-dried-refined-salt'].usageText,
         images: [
           "/images/products/dried-1.jpg",
-          "/images/products/dried-2.jpg",
+          // "/images/products/dried-2.jpg",
         ],
         ingredients: t.products['khanh-vinh-dried-refined-salt'].ingredientsText,
         status: t.products['khanh-vinh-dried-refined-salt'].statusText,
@@ -65,10 +64,9 @@ export default function ProductDetailPage() {
         quality: t.products['khanh-vinh-dried-refined-salt'].qualityText,
         certificate: t.products['khanh-vinh-dried-refined-salt'].certificateText,
         applications: [
-          language === "en" ? "Animal feed" : "Thức ăn gia súc",
-          language === "en" ? "Industrial use" : "Sử dụng công nghiệp",
-          language === "en" ? "Water treatment" : "Xử lý nước",
-          language === "en" ? "Chemical industry" : "Công nghiệp hóa chất",
+          language === "en" ? "Food preservation" : "Bảo quản thực phẩm",
+          language === "en" ? "Health care" : "Chăm sóc sức khỏe",
+          language === "en" ? "Household cleaning" : "Vệ sinh gia đình",
         ],
       },
       "khanh-vinh-iodised-salt": {
@@ -90,7 +88,6 @@ export default function ProductDetailPage() {
         applications: [
           language === "en" ? "Direct use" : "Sử dụng trực tiếp",
           language === "en" ? "Seasoning powder" : "Bột canh",
-          language === "en" ? "Cooking" : "Nấu ăn",
           language === "en" ? "Bakery products" : "Sản phẩm bánh kẹo",
         ],
       },
@@ -101,7 +98,7 @@ export default function ProductDetailPage() {
         description: t.products['khanh-vinh-iodised-salt-premium'].usageText,
         images: [
           "/images/products/iodised-premium-1.jpg",
-          "/images/products/iodised-premium-2.jpg",
+          // "/images/products/iodised-premium-2.jpg",
         ],
         ingredients: t.products['khanh-vinh-iodised-salt-premium'].ingredientsText,
         status: t.products['khanh-vinh-iodised-salt-premium'].statusText,
@@ -113,7 +110,6 @@ export default function ProductDetailPage() {
         applications: [
           language === "en" ? "Direct use" : "Sử dụng trực tiếp",
           language === "en" ? "Seasoning powder" : "Bột canh",
-          language === "en" ? "Cooking" : "Nấu ăn",
           language === "en" ? "Bakery products" : "Sản phẩm bánh kẹo",
         ],
       },
@@ -136,9 +132,9 @@ export default function ProductDetailPage() {
         quality: t.products['pure-coarse-salt'].qualityText,
         certificate: t.products['pure-coarse-salt'].certificateText,
         applications: [
-          language === "en" ? "Chemical industry" : "Công nghiệp hóa chất",
-          language === "en" ? "Water treatment" : "Xử lý nước",
-          language === "en" ? "Textile industry" : "Công nghiệp dệt may",
+          language === "en" ? "Food processing" : "Chế biến thực phẩm",
+          language === "en" ? "Agriculture processing" : "Chế biến nông nghiệp",
+          language === "en" ? "Household cleaning": "Vệ sinh gia đình",
         ],
       },
       "industrial-coarse-salt": {
@@ -147,8 +143,8 @@ export default function ProductDetailPage() {
         category: t.products['industrial-coarse-salt'].name,
         description: t.products['industrial-coarse-salt'].usageText,
         images: [
-          "/images/products/industrial-3.jpg",
-          "/images/products/industrial-4.jpg",
+          // "/images/products/industrial-3.jpg",
+          // "/images/products/industrial-4.jpg",
           "/images/products/industrial-1.jpg",
           "/images/products/industrial-2.jpg",
         ],
