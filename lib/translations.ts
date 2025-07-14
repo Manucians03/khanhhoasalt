@@ -86,7 +86,7 @@ export const translations = {
         {
           title: "Community Health",
           description:
-            "Develop I-salt products, supplementing essential minerals to prevent diseases such as hypothyroidism, heart disease,... and proudly be a unit in the national program to prevent goiter.",
+            "Develop I-salt products, supplementing essential minerals to prevent diseases such as hypothyroidism, heart disease, and proudly be a unit in the national program to prevent goiter.",
         },
         {
           title: "Social Responsibility",
@@ -180,7 +180,7 @@ export const translations = {
           storageText:
             "The product is packaged in a polyethylene bag to ensure quality according to current health regulations, with a polypropylene outer packaging.", 
           weightText:
-            "The product's weights range between 150g, 200g, 300g, 1kg, 20kg,... 25kg, 50kg, 1 tonne, suitable for all uses. Measurement error is compliant with current regulations of Ministry of Science and Technology.",
+            "The product's weights range between 150g, 200g, 300g, 1kg, 20kg, 25kg, 50kg, 1 tonne, suitable for all uses. Measurement error is compliant with current regulations of Ministry of Science and Technology.",
           qualityText: "Compliant with national standards for refined salt QCVN 01 - 194:2021/BNNPTNT",
           certificateText: "ISO 22000:2018, first issued on 01/07/2016, renewed on 06/07/2022.",
           usageText: "Best used for cooking, personal care, and household cleaning.",
@@ -192,7 +192,7 @@ export const translations = {
           expirationText: "5 years from date of production.",
           storageText: "The product is packaged in a polyethylene bag to ensure quality according to current health regulations, with a polypropylene outer packaging.", 
           weightText:
-            "The product's weights range between 150g, 200g, 300g, 1kg, 20kg,... 25kg, 50kg, 1 tonne, suitable for all uses. Measurement error is compliant with current regulations of Ministry of Science and Technology.",
+            "The product's weights range between 150g, 200g, 300g, 1kg, 20kg, 25kg, 50kg, 1 tonne, suitable for all uses. Measurement error is compliant with current regulations of Ministry of Science and Technology.",
           qualityText: "Compliant with national standards for iodised salt QCVN 01 - 194:2021/BNNPTNT",
           certificateText: "ISO 22000:2018, first issued on 01/07/2016, renewed on 06/07/2022.",
           usageText: "Best used directly for human consumption, seasoning powder, and bakery products.",
@@ -204,7 +204,7 @@ export const translations = {
           expirationText: "5 years from date of production.",
           storageText: "The product is packaged in a polyethylene bag to ensure quality according to current health regulations, with a polypropylene outer packaging.",
           weightText:
-            "The product's weights range between 150g, 200g, 300g, 1kg, 20kg,... 25kg, 50kg, 1 tonne, suitable for all uses. Measurement error is compliant with current regulations of Ministry of Science and Technology.",
+            "The product's weights range between 150g, 200g, 300g, 1kg, 20kg, 25kg, 50kg, 1 tonne, suitable for all uses. Measurement error is compliant with current regulations of Ministry of Science and Technology.",
           qualityText: "Compliant with national standards for iodised salt QCVN 01 - 194:2021/BNNPTNT",
           certificateText: "ISO 22000:2018, first issued on 01/07/2016, renewed on 06/07/2022.",
           usageText: "Best used directly for human consumption, seasoning powder, and bakery products.",
@@ -217,7 +217,7 @@ export const translations = {
           storageText:
             "The product is packaged in a polyethylene bag to ensure quality according to current health regulations, with a polypropylene outer packaging.", 
           weightText:
-            "The product's weights range between 150g, 200g, 300g, 1kg, 20kg,... 25kg, 50kg, 1 tonne, suitable for all uses. Measurement error is compliant with current regulations of Ministry of Science and Technology.",
+            "The product's weights range between 150g, 200g, 300g, 1kg, 20kg, 25kg, 50kg, 1 tonne, suitable for all uses. Measurement error is compliant with current regulations of Ministry of Science and Technology.",
           qualityText: "Compliant with national standards for refined salt QCVN 01 - 194:2021/BNNPTNT",
           certificateText: "ISO 22000:2018, first issued on 01/07/2016, renewed on 06/07/2022.",
           usageText: "Best used for food processing, agriculture processing, and household cleaning.",
@@ -230,7 +230,7 @@ export const translations = {
           storageText:
             "The product is packaged in a polyethylene bag to ensure quality according to current health regulations, with a polypropylene outer packaging.", 
           weightText:
-            "The product's weights range between 150g, 200g, 300g, 1kg, 20kg,... 25kg, 50kg, 1 tonne, suitable for all uses. Measurement error is compliant with current regulations of Ministry of Science and Technology.",
+            "The product's weights range between 150g, 200g, 300g, 1kg, 20kg, 25kg, 50kg, 1 tonne, suitable for all uses. Measurement error is compliant with current regulations of Ministry of Science and Technology.",
           qualityText: "Compliant with national standards for refined salt QCVN 01 - 194:2021/BNNPTNT",
           certificateText: "ISO 22000:2018, first issued on 01/07/2016, renewed on 06/07/2022.",
           usageText: "Best used for food processing, textile industry, and chemical industry.",
@@ -268,7 +268,7 @@ export const translations = {
       contact: "Liên Hệ",
     },
     footer: {
-      name: "Công Ty TNHH Muối Khánh Hoà",
+      name: "Công ty TNHH Muối Khánh Hoà",
       saying: "Liên hệ với chúng tôi để nhận được sự hỗ trợ tốt nhất",
       phoneText: "(02253) 581-589 - 0919-795-589",
       addressText: "Khu Phú Hải, phường Anh Dũng, quận Dương Kinh, Thành phố Hải Phòng, Việt Nam",
@@ -317,7 +317,7 @@ export const translations = {
     about: {
       title: "Về Chúng Tôi",
       description:
-        "Công ty TNHH Muối Khánh Hòa là đơn vị chuyên cung cấp đa dạng các sản phẩm về muối, bao gồm: muối i-ốt, muối tinh, muối tinh khiết, muối công nghiệp,... và các sản phẩm muối chuyên biệt khác.",
+        "Công ty TNHH Muối Khánh Hòa là đơn vị chuyên cung cấp đa dạng các sản phẩm về muối, bao gồm: muối i-ốt, muối tinh, muối tinh khiết, muối công nghiệp, và các sản phẩm muối chuyên biệt khác.",
       items: {
         'vision': {
           title: "Tầm nhìn",
@@ -344,7 +344,7 @@ export const translations = {
         {
           title: "Sức khỏe cộng đồng",
           description:
-            "Phát triển các sản phẩm muối I-ốt, bổ sung khoáng chất thiết yếu để phòng ngừa những bệnh như suy giảm tuyến giáp, tim mạch,... và tự hào là đơn vị nằm trong chương trình Quốc gia phòng chống bướu cổ.",
+            "Phát triển các sản phẩm muối I-ốt, bổ sung khoáng chất thiết yếu để phòng ngừa những bệnh như suy giảm tuyến giáp, tim mạch, và tự hào là đơn vị nằm trong chương trình Quốc gia phòng chống bướu cổ.",
         },
         {
           title: "Trách nhiệm xã hội",
@@ -403,9 +403,9 @@ export const translations = {
     },
     products: {
       title: "Sản Phẩm Của Chúng Tôi",
-      text: "Công ty TNHH Muối Khánh Hòa là đơn vị chuyên cung cấp đa dạng các sản phẩm về muối, bao gồm: muối i-ốt, muối tinh, muối tinh khiết, muối công nghiệp,... và các sản phẩm muối chuyên biệt khác.",
+      text: "Công ty TNHH Muối Khánh Hòa là đơn vị chuyên cung cấp đa dạng các sản phẩm về muối, bao gồm: muối i-ốt, muối tinh, muối tinh khiết, muối công nghiệp, và các sản phẩm muối chuyên biệt khác.",
       readMore: "Xem Thêm",
-      companyName: "Công Ty TNHH Muối Khánh Hoà",
+      companyName: "Công ty TNHH Muối Khánh Hoà",
       slogan: "VỊ MẶN TINH KHIẾT CHO SỨC KHỎE VIỆT",
       contactUs: "LIÊN HỆ",
       products: {
@@ -439,7 +439,7 @@ export const translations = {
           storageText:
             "Sản phẩm được đóng gói bằng túi Polietilen đảm bảo chất lượng theo quy định hiện hành của Bộ Y tế, bên ngoài là bao PP",
           weightText:
-            "Sản phẩm có đầy đủ các loại định lượng như: 150g, 200g, 300g, 1kg, 20kg,... 25kg, 50kg, 1 tấn phù hợp với mọi mục đích sử dụng. Sai số phù hợp với Quy định hiện hành của Bộ Khoa học công nghệ",
+            "Sản phẩm có đầy đủ các loại định lượng như: 150g, 200g, 300g, 1kg, 20kg, 25kg, 50kg, 1 tấn phù hợp với mọi mục đích sử dụng. Sai số phù hợp với Quy định hiện hành của Bộ Khoa học công nghệ",
           qualityText: "Phù hợp với quy chuẩn quốc gia đối với muối tinh QCVN 01 - 194:2021/BNNPTNT",
           certificateText: "ISO 22000:2018, được cấp lần đầu ngày 01/07/2016 và được cấp lại ngày 06/07/2022, cấp tại Tổ chức chứng nhận NQA (Anh Quốc).",
           usageText: "Sản phẩm tốt nhất để cho bảo quản thực phẩm, chăm sóc sức khỏe, và vệ sinh gia đình.",
@@ -451,10 +451,10 @@ export const translations = {
           expirationText: "5 năm kể từ ngày sản xuất.",
           storageText: "Sản phẩm được đóng gói bằng túi Polietilen đảm bảo chất lượng theo quy định hiện hành của Bộ Y tế, bên ngoài là bao PP",
           weightText:
-            "Sản phẩm có đầy đủ các loại định lượng như: 150g, 200g, 300g, 1kg, 20kg,... 25kg, 50kg, 1 tấn phù hợp với mọi mục đích sử dụng. Sai số phù hợp với Quy định hiện hành của Bộ Khoa học công nghệ",
+            "Sản phẩm có đầy đủ các loại định lượng như: 150g, 200g, 300g, 1kg, 20kg, 25kg, 50kg, 1 tấn phù hợp với mọi mục đích sử dụng. Sai số phù hợp với Quy định hiện hành của Bộ Khoa học công nghệ",
           qualityText: "Phù hợp với quy chuẩn quốc gia đối với muối tinh QCVN 01 - 194:2021/BNNPTNT",
           certificateText: "ISO 22000:2018, được cấp lần đầu ngày 01/07/2016 và được cấp lại ngày 06/07/2022, cấp tại Tổ chức chứng nhận NQA (Anh Quốc).",
-          usageText: "Sử dụng ăn trực tiếp, làm bột canh, sản phẩm bánh kẹo,...",
+          usageText: "Sử dụng ăn trực tiếp, làm bột canh, sản phẩm bánh kẹo,",
         },
         'khanh-vinh-iodised-salt-premium': {
           name: "Muối I-ốt Khánh Vinh Mới",
@@ -463,10 +463,10 @@ export const translations = {
           expirationText: "5 năm kể từ ngày sản xuất.",
           storageText: "Sản phẩm được đóng gói bằng túi Polietilen đảm bảo chất lượng theo quy định hiện hành của Bộ Y tế, bên ngoài là bao PP",
           weightText:
-            "Sản phẩm có đầy đủ các loại định lượng như: 150g, 200g, 300g, 1kg, 20kg,... 25kg, 50kg, 1 tấn phù hợp với mọi mục đích sử dụng. Sai số phù hợp với Quy định hiện hành của Bộ Khoa học công nghệ",
+            "Sản phẩm có đầy đủ các loại định lượng như: 150g, 200g, 300g, 1kg, 20kg, 25kg, 50kg, 1 tấn phù hợp với mọi mục đích sử dụng. Sai số phù hợp với Quy định hiện hành của Bộ Khoa học công nghệ",
           qualityText: "Phù hợp với quy chuẩn quốc gia đối với muối tinh QCVN 01 - 194:2021/BNNPTNT",
           certificateText: "ISO 22000:2018, được cấp lần đầu ngày 01/07/2016 và được cấp lại ngày 06/07/2022, cấp tại Tổ chức chứng nhận NQA (Anh Quốc).",
-          usageText: "Sử dụng ăn trực tiếp, làm bột canh, sản phẩm bánh kẹo,...",
+          usageText: "Sử dụng ăn trực tiếp, làm bột canh, sản phẩm bánh kẹo,",
         },
         'pure-coarse-salt': {
           name: "Muối hạt sạch",
@@ -476,7 +476,7 @@ export const translations = {
           storageText:
             "Sản phẩm được đóng gói bằng túi Polietilen đảm bảo chất lượng theo quy định hiện hành của Bộ Y tế, bên ngoài là bao PP",
           weightText:
-            "Sản phẩm có đầy đủ các loại định lượng như: 150g, 200g, 300g, 1kg, 20kg,... 25kg, 50kg, 1 tấn phù hợp với mọi mục đích sử dụng. Sai số phù hợp với Quy định hiện hành của Bộ Khoa học công nghệ",
+            "Sản phẩm có đầy đủ các loại định lượng như: 150g, 200g, 300g, 1kg, 20kg, 25kg, 50kg, 1 tấn phù hợp với mọi mục đích sử dụng. Sai số phù hợp với Quy định hiện hành của Bộ Khoa học công nghệ",
           qualityText: "Phù hợp với quy chuẩn quốc gia đối với muối tinh QCVN 01 - 194:2021/BNNPTNT",
           certificateText: "ISO 22000:2018, được cấp lần đầu ngày 01/07/2016 và được cấp lại ngày 06/07/2022, cấp tại Tổ chức chứng nhận NQA (Anh Quốc).",
           usageText: "Được dùng để chế biến thực phẩm, chế biến sản phẩm nông nghiệp, và vệ sinh gia đình.",
@@ -489,10 +489,10 @@ export const translations = {
           storageText:
             "Sản phẩm được đóng gói bằng túi Polietilen đảm bảo chất lượng theo quy định hiện hành của Bộ Y tế, bên ngoài là bao PP",
           weightText:
-            "Sản phẩm có đầy đủ các loại định lượng như: 150g, 200g, 300g, 1kg, 20kg,... 25kg, 50kg, 1 tấn phù hợp với mọi mục đích sử dụng. Sai số phù hợp với Quy định hiện hành của Bộ Khoa học công nghệ",
+            "Sản phẩm có đầy đủ các loại định lượng như: 150g, 200g, 300g, 1kg, 20kg, 25kg, 50kg, 1 tấn phù hợp với mọi mục đích sử dụng. Sai số phù hợp với Quy định hiện hành của Bộ Khoa học công nghệ",
           qualityText: "Phù hợp với quy chuẩn quốc gia đối với muối tinh QCVN 01 - 194:2021/BNNPTNT",
           certificateText: "ISO 22000:2018, được cấp lần đầu ngày 01/07/2016 và được cấp lại ngày 06/07/2022, cấp tại Tổ chức chứng nhận NQA (Anh Quốc).",
-          usageText: "Được dùng trong sản xuất công nghiệp thực phẩm, dệt may, hóa chất,...",
+          usageText: "Được dùng trong sản xuất công nghiệp thực phẩm, dệt may, hóa chất,",
         },
       },
     },
@@ -505,7 +505,7 @@ export const translations = {
       yourEmail: "Email",
       yourSubject: "Tiêu Đề",
       writeYourMessage: "Nội Dung Tin Nhắn",
-      companyName: "Công Ty TNHH Muối Khánh Hoà",
+      companyName: "Công ty TNHH Muối Khánh Hòa",
       slogan: "VỊ MẶN TINH KHIẾT CHO SỨC KHỎE VIỆT",
       emergencyLine: "Đường Dây Nóng",
       ourEmail: "Email Của Chúng Tôi",
