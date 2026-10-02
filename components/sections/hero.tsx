@@ -16,9 +16,9 @@ const Hero = () => {
     "/images/company/company-2.jpg",
     "/images/company/company-3.jpg",
     "/images/company/company-4.jpg",
-    "/images/products/Quảng Bá Muối Khánh Vinh Giữa Đồng Muối.jpg",
-    "/images/products/all-2.jpg",
-    "/images/products/all-3.jpg",
+    "/images/products/all-4.jpg",
+    "/images/products/all-5.jpg",
+    "/images/products/all-6.jpg",
   ]
 
   useEffect(() => {
